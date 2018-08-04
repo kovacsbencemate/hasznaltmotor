@@ -13,21 +13,18 @@
 
     <main>
         <div id="filter">
-            <form>
-                <div class="row">
-                    <div class="col-3">
-                        <input type="text" class="form-control" placeholder="">
-                    </div>
-                    <div class="col-3">
-                        <input type="text" class="form-control" placeholder="Last name">
-                    </div>
-                    <div class="col-3">
-                        <input type="text" class="form-control" placeholder="">
-                    </div>
-                    <div class="col-3">
-                        <input type="text" class="form-control" placeholder="Last name">
+            <form method="get" action="/send">
+                <div class="row fields">
+                    <div class="col-3 comp">
+                        <h1>Ár</h1>
+                        <div class="row">
+                            <input name="minPrice" type="text" class="form-control form-control-sm col-5" placeholder="Minimum ár">
+                            <span class="col-2"> - </span>
+                            <input name="maxPrice" type="text" class="form-control form-control-sm col-5" placeholder="Maximum ár">
+                        </div>
                     </div>
                 </div>
+                <button type="submit" class="btn btn-primary send-button">Keres</button>
             </form>
         </div>
     </main>

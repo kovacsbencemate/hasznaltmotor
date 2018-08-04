@@ -7,5 +7,22 @@ header {
     margin: 30px 50px;
     border: 1px solid black;
     padding: 10px;
+    overflow: hidden;
+}
+.comp h1 {
+    font-size: 25px;
+    margin-left: 15px;
+}
+.comp span {
+    text-align: center;
+}
+.comp div {
+    margin: 10px;
+}
+.fields {
+    padding: 10px;
+}
+.send-button {
+    float: right;
 }
 
