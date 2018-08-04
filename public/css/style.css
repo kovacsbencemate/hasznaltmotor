@@ -25,4 +25,6 @@ header {
 .send-button {
     float: right;
 }
-
+.motor {
+    margin: 10px;
+}
